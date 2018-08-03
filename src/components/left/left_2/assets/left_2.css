@@ -1,0 +1,26 @@
+/* .trapLeftTwo {
+  position: absolute;
+  margin-left: 15%;
+  border-left: 12vw solid #112D32;
+  border-top: 3vw solid transparent;
+  width: 0;
+  height: 35vw;
+  bottom: 0;
+} */
+
+#trapLeftTwo {
+  position: absolute;
+  width: 13%;
+  bottom: 0;
+  margin-left: 14%;
+}
+
+.cls-1-left-2 {
+  fill: #112d32;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.cls-2-left-2 {
+  filter: url(#Path_7);
+}

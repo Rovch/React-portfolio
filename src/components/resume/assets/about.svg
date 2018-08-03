@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 459 238">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #254e58;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #4f4a41;
+        font-size: 20px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-3 {
+        fill: #112d32;
+        font-size: 15px;
+      }
+
+      .cls-4 {
+        filter: url(#ABOUT);
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_10);
+      }
+    </style>
+    <filter id="Rectangle_10" x="1" y="21" width="458" height="217" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ABOUT" x="0" y="0" width="90" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(-874 -514)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 874, 514)">
+      <rect id="Rectangle_10-2" data-name="Rectangle 10" class="cls-1" width="438" height="197" transform="translate(8 28)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 874, 514)">
+      <text id="ABOUT-2" data-name="ABOUT" class="cls-2" transform="translate(7 6)"><tspan x="0" y="19">ABOUT</tspan></text>
+    </g>
+    <text id="Hello_I_am_an_experienced_and_knowledgeable_Full_Stack_Web_Developer._I_strive_to_produce_valuable_content_at_exceptional_speeds_using_all_knowledge_gained_in_previous_training._With_an_in-depth_knowledge_of_numerous_Technologies_and_having_a_keen_underst" data-name="Hello, I am an experienced and knowledgeable Full Stack Web Developer. I strive to produce valuable content at exceptional speeds using all knowledge gained in previous training. With an in-depth knowledge of numerous Technologies and having a keen underst" class="cls-3" transform="translate(907 580)"><tspan x="0" y="14">Hello, I am an experienced and knowledgeable Full Stack </tspan><tspan x="0" y="31">Web Developer. I strive to produce valuable content at </tspan><tspan x="0" y="48">exceptional speeds using all knowledge gained in </tspan><tspan x="0" y="65">previous training. With an in-depth knowledge of </tspan><tspan x="0" y="82">numerous Technologies and having a keen understanding </tspan><tspan x="0" y="99">of how they interact with other systems, with this is how I </tspan><tspan x="0" y="116">produce quality work.</tspan></text>
+  </g>
+</svg>

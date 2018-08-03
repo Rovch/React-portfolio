@@ -1,0 +1,321 @@
+/* ---------------- resume Main ---------------- */
+
+#resInactive {
+  position: absolute;
+  transition-delay: 300ms;
+  transition-timing-function: ease-in;
+  transition-duration: 1000ms;
+  width: 100vw;
+  height: 0vh;
+  bottom: 0;
+  background-color: white;
+  border: 0px solid #2E4D56;
+  opacity: 1;
+}
+
+#resActive {
+  position: absolute;
+  opacity: 1;
+  transition-timing-function: ease-in;
+  transition-duration: 2000ms;
+  width: 100vw;
+  height: 70vh;
+  bottom: 0;
+  background-color: white;
+  border: 2px solid #2E4D56;
+}
+
+#Active {
+  transition-delay: 2900ms !important;
+  transition-timing-function: ease-in !important;
+  transition-duration: 250ms !important;
+  opacity: 1
+}
+
+#InActive {
+  transition-timing-function: ease-in !important;
+  transition-duration: 250ms !important;
+  opacity: 0
+}
+
+/* ----------------- brown_wave ----------------- */
+
+#wave_brown_resInactive {
+  position: absolute;
+  bottom: 0;
+}
+
+#wave_brown_resActive {
+  position: absolute;
+  bottom: 0;
+}
+
+.cls-1-brown {
+  fill: #4f4a41;
+  stroke: #707070;
+}
+
+.cls-2-brown {
+  filter: url(#Path_15);
+}
+
+/* ----------------- green_wave ----------------- */
+
+#wave_green_resInactive {
+  position: absolute;
+  bottom: 0;
+}
+
+#wave_green_resActive {
+  position: absolute;
+  bottom: 0;
+}
+
+.cls-1-green {
+  fill: #112d32;
+  stroke: #000;
+}
+
+.cls-2-green {
+  filter: url(#Path_16);
+}
+
+/* ----------------- blue_wave ----------------- */
+
+#wave_blue_resInactive {
+  position: absolute;
+  bottom: 0;
+}
+
+#wave_blue_resActive {
+  position: absolute;
+  bottom: 0;
+}
+
+.cls-1-blue {
+  fill: #254e58;
+  stroke: #000;
+}
+
+.cls-2-blue {
+  fill: #e3e3e3;
+  font-size: 12px;
+  font-family: HelveticaNeue, Helvetica Neue;
+}
+
+.cls-3-blue {
+  filter: url(#PDF_DOWNLOAD);
+}
+
+.cls-4-blue {
+  filter: url(#Path_17);
+}
+
+/* ----------------- skills ----------------- */
+
+#skills {
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 4%;
+  width: 30%;
+}
+
+.cls-1-skills {
+  fill: #fff;
+  stroke: #4f4a41;
+  stroke-width: 2px;
+}
+
+.cls-2-skills {
+  fill: #3c3932;
+  font-size: 20px;
+}
+
+.cls-2-skills,
+.cls-3-skills,
+.cls-4-skills,
+.cls-5-skills {
+  font-family: HelveticaNeue, Helvetica Neue;
+}
+
+.cls-3-skills,
+.cls-4-skills {
+  fill: #112d32;
+}
+
+.cls-3-skills,
+.cls-5-skills {
+  font-size: 15px;
+}
+
+.cls-4-skills {
+  font-size: 18px;
+}
+
+.cls-5-skills {
+  fill: #254e58;
+}
+
+.cls-6-skills {
+  filter: url(#Databases);
+}
+
+.cls-7-skills {
+  filter: url(#_MySQL_MongoDB_);
+}
+
+.cls-8-skills {
+  filter: url(#Server_Side_Deployment);
+}
+
+.cls-9-skills {
+  filter: url(#_Express_Security_and_Session_Storage_User_Auth._MERN_STACK_Mongo.DB_Express.js_React.js_Node.js_);
+}
+
+.cls-10-skills {
+  filter: url(#Deployment);
+}
+
+.cls-11-skills {
+  filter: url(#_Heroku_GIT_);
+}
+
+.cls-12-skills {
+  filter: url(#Browser_Based);
+}
+
+.cls-13-skills {
+  filter: url(#_HTML_CSS_JavaScript_JQuery_Responsive_Design_Bootstrap_Handlebars_React.js_Ejs_);
+}
+
+.cls-14-skills {
+  filter: url(#TECHNICAL_SKILLS);
+}
+
+.cls-15-skills {
+  filter: url(#Rectangle_7);
+}
+
+/* ----------------- experience ----------------- */
+
+#experience {
+  position: absolute;
+  margin-left: 11%;
+  margin-top: 14%;
+  width: 30%;
+}
+
+.cls-1-experience {
+  fill: #fff;
+  stroke: #254e58;
+  stroke-width: 2px;
+}
+
+.cls-2-experience {
+  fill: #254e58;
+  font-size: 20px;
+}
+
+.cls-2-experience,
+.cls-4-experience {
+  font-family: HelveticaNeue, Helvetica Neue;
+}
+
+.cls-3-experience {
+  fill: #112d32;
+  font-size: 15px;
+  font-family: HelveticaNeue-Medium, Helvetica Neue;
+  font-weight: 500;
+}
+
+.cls-4-experience {
+  font-weight: 400;
+}
+
+.cls-5-experience {
+  filter: url(#EXPERIENCE);
+}
+
+.cls-6-experience {
+  filter: url(#Rectangle_8);
+}
+
+/* ----------------- about ----------------- */
+
+#about {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 10%;
+  width: 25%;
+}
+
+.cls-1-about {
+  fill: #fff;
+  stroke: #254e58;
+  stroke-width: 2px;
+}
+
+.cls-2-about {
+  fill: #4f4a41;
+  font-size: 20px;
+}
+
+.cls-2-about,
+.cls-3-about {
+  font-family: HelveticaNeue, Helvetica Neue;
+}
+
+.cls-3-about {
+  fill: #112d32;
+  font-size: 15px;
+}
+
+.cls-4-about {
+  filter: url(#ABOUT);
+}
+
+.cls-5-about {
+  filter: url(#Rectangle_10);
+}
+
+/* ----------------- education ----------------- */
+
+#education {
+  position: absolute;
+  margin-left: 64%;
+  margin-top: 2%;
+  width: 22%;
+}
+
+.cls-1-education {
+  fill: #fff;
+  stroke: #4f4a41;
+  stroke-width: 2px;
+}
+
+.cls-2-education {
+  fill: #112d32;
+  font-size: 15px;
+}
+
+.cls-2-education,
+.cls-3-education {
+  font-family: HelveticaNeue, Helvetica Neue;
+}
+
+.cls-3-education {
+  fill: #254e58;
+  font-size: 20px;
+}
+
+.cls-4-education {
+  filter: url(#EDUCATION);
+}
+
+.cls-5-education {
+  filter: url(#The_University_of_Texas_at_Austin_Full_Stack_Web_Development_Certificate_Udemy_and_Udacity_Refresher_Courses_-_SQL_Modern_React_With_Redux_React_Native_Node.js_Express_);
+}
+
+.cls-6-education {
+  filter: url(#Rectangle_9);
+}

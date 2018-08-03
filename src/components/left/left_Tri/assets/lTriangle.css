@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.Left_Main_Div {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  bottom: 0;
+}
+
+#Left_Main {
+  position: absolute;
+  bottom: 0;
+}
+
+.cls-1-left {
+  fill: #fff;
+}
+
+.cls-2-left {
+  font-size: 563px;
+}
+
+.cls-2-left,
+.cls-3-left {
+  font-family: PathwayGothicOne-Regular, Pathway Gothic One;
+  opacity: 0.2;
+}
+
+.cls-3-left {
+  font-size: 200px;
+}
+
+.cls-4-left {
+  filter: url(#ACK-END);
+}
+
+.cls-5-left {
+  filter: url(#B);
+}
+
+.cls-6-left {
+  filter: url(#Path_1);
+}

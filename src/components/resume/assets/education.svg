@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 403 215">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #4f4a41;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #112d32;
+        font-size: 15px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-3 {
+        fill: #254e58;
+        font-size: 20px;
+      }
+
+      .cls-4 {
+        filter: url(#EDUCATION);
+      }
+
+      .cls-5 {
+        filter: url(#The_University_of_Texas_at_Austin_Full_Stack_Web_Development_Certificate_Udemy_and_Udacity_Refresher_Courses_-_SQL_Modern_React_With_Redux_React_Native_Node.js_Express_);
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_9);
+      }
+    </style>
+    <filter id="Rectangle_9" x="0" y="21" width="403" height="194" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="The_University_of_Texas_at_Austin_Full_Stack_Web_Development_Certificate_Udemy_and_Udacity_Refresher_Courses_-_SQL_Modern_React_With_Redux_React_Native_Node.js_Express_" x="33" y="58" width="358" height="130" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="EDUCATION" x="0" y="0" width="143" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(-1270 -364)">
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 1270, 364)">
+      <rect id="Rectangle_9-2" data-name="Rectangle 9" class="cls-1" width="383" height="174" transform="translate(7 28)"/>
+    </g>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 1270, 364)">
+      <text id="The_University_of_Texas_at_Austin_Full_Stack_Web_Development_Certificate_Udemy_and_Udacity_Refresher_Courses_-_SQL_Modern_React_With_Redux_React_Native_Node.js_Express_2" data-name="The University of Texas at Austin – Full Stack Web Development Certificate
+
+ Udemy and Udacity Refresher Courses -  SQL, Modern React With Redux, React Native, Node.js, Express
+" class="cls-2" transform="translate(39 64)"><tspan x="0" y="14">The University of Texas at Austin – Full Stack Web </tspan><tspan x="0" y="31">Development Certificate</tspan><tspan x="0" y="48"></tspan><tspan x="0" y="65" xml:space="preserve"> Udemy and Udacity Refresher Courses -  SQL, </tspan><tspan x="0" y="82">Modern React With Redux, React Native, Node.js, </tspan><tspan x="0" y="99">Express</tspan></text>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 1270, 364)">
+      <text id="EDUCATION-2" data-name="EDUCATION" class="cls-3" transform="translate(6 6)"><tspan x="0" y="19">EDUCATION</tspan></text>
+    </g>
+  </g>
+</svg>

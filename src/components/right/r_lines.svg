@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 54.838 37.819">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        filter: url(#Line_6);
+      }
+
+      .cls-3 {
+        filter: url(#Line_5);
+      }
+
+      .cls-4 {
+        filter: url(#Line_4);
+      }
+    </style>
+    <filter id="Line_4" x="10.005" y="0" width="37.828" height="26.821" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_5" x="0" y="1.002" width="54.838" height="34.816" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Line_6" x="4.002" y="10.001" width="39.833" height="27.818" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1852.581 -24.09)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 1852.58, 24.09)">
+      <line id="Line_4-2" data-name="Line 4" class="cls-1" x2="22" y2="10" transform="translate(12.92 3.41)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 1852.58, 24.09)">
+      <line id="Line_5-2" data-name="Line 5" class="cls-1" x2="39" y2="18" transform="translate(2.92 4.41)"/>
+    </g>
+    <g class="cls-2" transform="matrix(1, 0, 0, 1, 1852.58, 24.09)">
+      <line id="Line_6-2" data-name="Line 6" class="cls-1" x2="24" y2="11" transform="translate(6.92 13.41)"/>
+    </g>
+  </g>
+</svg>

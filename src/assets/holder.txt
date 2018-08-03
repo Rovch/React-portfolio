@@ -1,0 +1,67 @@
+<svg   id="lol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 262.361 749.301">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: white;
+            opacity: 0.87;
+          }
+    
+          .cls-2, .cls-3 {
+            stroke: none;
+          }
+    
+          .cls-4 {
+            filter: url(#Path_3);
+          }
+        </style>
+        <filter id="Path_3" x="0" y="0" width="262.361" height="749.301" filterUnits="userSpaceOnUse">
+
+          <feOffset dx="5" dy="5" input="SourceAlpha"/>
+          <feGaussianBlur stdDeviation="3" result="blur"/>
+          <feFlood flood-opacity="0.161"/>
+          <feComposite operator="in" in2="blur"/>
+          <feComposite in="SourceGraphic"/>
+          <feOffset
+          dx='2'
+          dy='3'
+        />
+        <!-- Shadow Blur -->
+        <feGaussianBlur
+          stdDeviation='1'
+          result='offset-blur'
+        />
+        <!-- Invert the drop shadow to create an inner shadow -->
+        <feComposite
+          operator='out'
+          in='SourceGraphic'
+          in2='offset-blur'
+          result='inverse'
+        />
+        <!-- Color & Opacity -->
+        <feFlood
+          flood-color='black'
+          flood-opacity='1'
+          result='color'
+        />
+        <!-- Clip color inside shadow -->
+        <feComposite
+          operator='in'
+          in='color'
+          in2='inverse'
+          result='shadow'
+        />
+        <!-- Put shadow over original object -->
+        <feComposite
+          operator='over'
+          in='shadow'
+          in2='SourceGraphic'
+        />
+        </filter>
+      </defs>
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <g id="Path_3-2" data-name="Path 3" class="cls-1" transform="translate(4 4)">
+          <path class="cls-2" d="M 243.3607177734375 730.2362060546875 L 0.999995231628418 715.0607299804688 L 0.999995231628418 1.581941962242126 L 243.3607177734375 116.6807632446289 L 243.3607177734375 730.2362060546875 Z"/>
+          <path class="cls-3" d="M 242.3607177734375 729.171630859375 L 242.3607177734375 117.3129577636719 L 1.999995231628418 3.163947820663452 L 1.999995231628418 714.121337890625 L 242.3607177734375 729.171630859375 M 244.3607177734375 731.30078125 L -4.749645086121745e-06 716 L -4.749645086121745e-06 2.698863681871444e-05 L 244.3607177734375 116.0486602783203 L 244.3607177734375 731.30078125 Z"/>
+        </g>
+      </g>
+    </svg>

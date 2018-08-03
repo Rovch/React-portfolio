@@ -1,0 +1,27 @@
+/* .trapRightOne {
+  position: absolute;
+  margin-left:85%;
+  border-left: 12vw solid #254E58;
+  border-top: 8vw solid transparent;
+  width: 0;
+  height: 30vw;
+  bottom:0;
+} */
+
+#trapRightOne {
+  position: absolute;
+  width: 13%;
+  bottom: 0;
+  right: 0;
+  margin-right: 26%;
+}
+
+.cls-1-right-1 {
+  fill: #4f4a41;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.cls-2-right-1 {
+  filter: url(#Path_3);
+}

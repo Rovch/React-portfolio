@@ -1,0 +1,123 @@
+/* ---------------- devBox ---------------- */
+
+#style1 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linecap: square;
+  stroke-miterlimit: 1.5;
+}
+
+#style2 {
+  fill: #fff;
+}
+
+#style3 {
+  font-family: 'MalayalamSangamMN', 'Malayalam Sangam MN';
+  font-size: 29.735px;
+  fill: #fff;
+}
+
+#devBox {
+  margin-left: 41%;
+  margin-top: 12%;
+  height: 5%;
+  width: 18%;
+  position: absolute;
+}
+
+#devBox svg {
+  cursor: pointer;
+  transition-duration: 300ms;
+  transform: scale(1);
+  transition-timing-function: ease-out;
+}
+
+#devBox svg:hover {
+  cursor: pointer;
+  transition-duration: 300ms;
+  transform: scale(1.05);
+  transition-timing-function: ease-out;
+}
+
+#devBox:hover~.resume {
+  cursor: pointer;
+  transition-duration: 300ms;
+  font-size: .9em;
+  transition-timing-function: ease-out;
+}
+
+/* ---------------- view text ---------------- */
+
+.view {
+  transition-duration: 1000ms !important;
+  opacity: 1;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+  position: absolute;
+  left: 31%;
+  margin-top: 18%;
+  height: 5%;
+  width: 18%;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'MalayalamSangamMN', 'Malayalam Sangam MN';
+  font-size: .8em;
+}
+
+.viewHide {
+  transition-duration: 1000ms !important;
+  opacity: 0;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+  position: absolute;
+  left: 31%;
+  margin-top: 18%;
+  height: 5%;
+  width: 18%;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'MalayalamSangamMN', 'Malayalam Sangam MN';
+  font-size: .8em;
+}
+
+/* ---------------- resume text ---------------- */
+
+.res {
+  transition-duration: 1000ms !important;
+  opacity: 1;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  position: absolute;
+  left: 34%;
+  margin-top: 16.5%;
+  height: 5%;
+  width: 18%;
+  color: black;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'MalayalamSangamMN', 'Malayalam Sangam MN';
+  font-size: .8em;
+}
+
+.resHide {
+  transition-duration: 1000ms !important;
+  opacity: 0;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  position: absolute;
+  left: 34%;
+  margin-top: 16.5%;
+  height: 5%;
+  width: 18%;
+  color: black;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'MalayalamSangamMN', 'Malayalam Sangam MN';
+  font-size: .8em;
+}

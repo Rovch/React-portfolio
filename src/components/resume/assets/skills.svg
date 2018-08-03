@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 606 301.016">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #4f4a41;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #3c3932;
+        font-size: 20px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #112d32;
+      }
+
+      .cls-3, .cls-5 {
+        font-size: 15px;
+      }
+
+      .cls-4 {
+        font-size: 18px;
+      }
+
+      .cls-5 {
+        fill: #254e58;
+      }
+
+      .cls-6 {
+        filter: url(#Databases);
+      }
+
+      .cls-7 {
+        filter: url(#_MySQL_MongoDB_);
+      }
+
+      .cls-8 {
+        filter: url(#Server_Side_Deployment);
+      }
+
+      .cls-9 {
+        filter: url(#_Express_Security_and_Session_Storage_User_Auth._MERN_STACK_Mongo.DB_Express.js_React.js_Node.js_);
+      }
+
+      .cls-10 {
+        filter: url(#Deployment);
+      }
+
+      .cls-11 {
+        filter: url(#_Heroku_GIT_);
+      }
+
+      .cls-12 {
+        filter: url(#Browser_Based);
+      }
+
+      .cls-13 {
+        filter: url(#_HTML_CSS_JavaScript_JQuery_Responsive_Design_Bootstrap_Handlebars_React.js_Ejs_);
+      }
+
+      .cls-14 {
+        filter: url(#TECHNICAL_SKILLS);
+      }
+
+      .cls-15 {
+        filter: url(#Rectangle_7);
+      }
+    </style>
+    <filter id="Rectangle_7" x="0" y="20.957" width="606" height="280.058" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="TECHNICAL_SKILLS" x="1" y="0" width="210" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_HTML_CSS_JavaScript_JQuery_Responsive_Design_Bootstrap_Handlebars_React.js_Ejs_" x="24" y="65" width="158" height="198" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Browser_Based" x="10" y="46" width="148" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_Heroku_GIT_" x="352" y="182" width="103" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Deployment" x="340" y="160" width="122" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_Express_Security_and_Session_Storage_User_Auth._MERN_STACK_Mongo.DB_Express.js_React.js_Node.js_" x="170" y="66" width="425" height="111" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Server_Side_Deployment" x="159" y="46" width="236" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_MySQL_MongoDB_" x="175" y="179" width="140" height="62" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Databases" x="164" y="160" width="109" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_12" data-name="Group 12" transform="translate(-47 -414)">
+    <g class="cls-15" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" class="cls-1" width="586" height="260.058" transform="translate(7 27.96)"/>
+    </g>
+    <g class="cls-14" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="TECHNICAL_SKILLS-2" data-name="TECHNICAL SKILLS" class="cls-2" transform="translate(7 6)"><tspan x="0" y="19">TECHNICAL SKILLS</tspan></text>
+    </g>
+    <g class="cls-13" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="_HTML_CSS_JavaScript_JQuery_Responsive_Design_Bootstrap_Handlebars_React.js_Ejs_2" data-name="•	HTML
+•	CSS
+•	JavaScript
+•	JQuery
+•	Responsive Design
+•	Bootstrap
+•	Handlebars
+•	React.js
+•	Ejs
+" class="cls-3" transform="translate(30 71)"><tspan x="0" y="14">•	HTML</tspan><tspan x="0" y="31">•	CSS</tspan><tspan x="0" y="48">•	JavaScript</tspan><tspan x="0" y="65">•	JQuery</tspan><tspan x="0" y="82">•	Responsive </tspan><tspan x="0" y="99">Design</tspan><tspan x="0" y="116">•	Bootstrap</tspan><tspan x="0" y="133">•	Handlebars</tspan><tspan x="0" y="150">•	React.js</tspan><tspan x="0" y="167">•	Ejs</tspan></text>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="Browser_Based-2" data-name="Browser Based" class="cls-4" transform="translate(16 52)"><tspan x="0" y="17">Browser Based</tspan></text>
+    </g>
+    <g class="cls-11" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="_Heroku_GIT_2" data-name="•	Heroku
+•	GIT
+" class="cls-3" transform="translate(358 188)"><tspan x="0" y="14">•	Heroku</tspan><tspan x="0" y="31">•	GIT</tspan></text>
+    </g>
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="Deployment-2" data-name="Deployment" class="cls-4" transform="translate(346 166)"><tspan x="0" y="17">Deployment</tspan></text>
+    </g>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="_Express_Security_and_Session_Storage_User_Auth._MERN_STACK_Mongo.DB_Express.js_React.js_Node.js_2" data-name="•	Express
+•	Security and Session Storage
+•	User Auth.
+•	MERN STACK (Mongo.DB, Express.js, React.js, Node.js)
+" class="cls-3" transform="translate(176 72)"><tspan x="0" y="14">•	Express</tspan><tspan x="0" y="31">•	Security and Session Storage</tspan><tspan x="0" y="48">•	User Auth.</tspan><tspan x="0" y="65">•	MERN STACK (Mongo.DB, Express.js, React.js, Node.js)</tspan><tspan x="0" y="82"></tspan></text>
+    </g>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="Server_Side_Deployment-2" data-name="Server Side Deployment" class="cls-4" transform="translate(165 52)"><tspan x="0" y="17">Server Side Deployment</tspan></text>
+    </g>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="_MySQL_MongoDB_2" data-name="•	MySQL
+•	MongoDB
+" class="cls-5" transform="translate(181 185)"><tspan x="0" y="14">•	MySQL</tspan><tspan x="0" y="31">•	MongoDB</tspan></text>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 47, 414)">
+      <text id="Databases-2" data-name="Databases" class="cls-4" transform="translate(170 166)"><tspan x="0" y="17">Databases</tspan></text>
+    </g>
+  </g>
+</svg>

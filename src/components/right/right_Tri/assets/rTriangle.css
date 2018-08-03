@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.Right_Main_Div {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  bottom: 0;
+  right: 0;
+}
+
+.Right_child {
+  position: absolute;
+  bottom: 0;
+}
+
+.cls-5-right {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.cls-1-right,
+.cls-2-right {
+  fill: #fff;
+  font-family: PathwayGothicOne-Regular, Pathway Gothic One;
+}
+
+.cls-1-right {
+  font-size: 600px;
+  opacity: 0.136;
+}
+
+.cls-2-right {
+  font-size: 200px;
+  opacity: 0.164;
+}
+
+.cls-3-right {
+  filter: url(#RONT-END);
+}
+
+.cls-4-right {
+  filter: url(#F);
+}
+
+.cls-5-right {
+  filter: url(#Path_2);
+}
