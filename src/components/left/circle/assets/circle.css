@@ -1,0 +1,29 @@
+.cls-1-c-l,
+.cls-2-c-l,
+.cls-4-c-l {
+  fill: none;
+}
+
+.cls-1-c-l,
+.cls-2-c-l {
+  stroke: #707070;
+}
+
+.cls-1-c-l {
+  opacity: 0.541;
+}
+
+.cls-2-c-l {
+  opacity: 0.54;
+}
+
+.cls-3-c-l {
+  stroke: none;
+}
+
+.circle_left {
+  width: 33%;
+  position: absolute;
+  bottom: 0;
+  margin-left: 8%
+}

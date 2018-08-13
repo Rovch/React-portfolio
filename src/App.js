@@ -10,6 +10,8 @@ import Right1 from "./components/right/right_1";
 import Right2 from "./components/right/right_2";
 import Right3 from "./components/right/right_3";
 import DevBox from "./components/devBox";
+import Right_circle from "./components/right/circle";
+import Left_circle from "./components/left/circle";
 
 
 class App extends Component {
@@ -17,16 +19,17 @@ class App extends Component {
     super();
 
     this.state = {
-      current1: 0,
-      current2: 122,
-      current1_1: 19,
-      current2_2: 184,
-      left_2_right: 120,
-      left_2_left: 70,
-      motion: false,
+      current1: 120,
+      current2: 242,
+      current1_1: 139,
+      current2_2: 304,
+      left_2_right: 242,
+      left_2_left: 186,
+      motion: true,
       isToggleOn: true,
       elements: true
     }
+
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -49,7 +52,7 @@ class App extends Component {
       this.setState({
         current1: this.state.current1 + 1
       });
-      if (this.state.current1 === 210) {
+      if (this.state.current1 === 310) {
         clearInterval(i);
         this.left_3_up()
       }
@@ -61,7 +64,7 @@ class App extends Component {
       this.setState({
         current1: this.state.current1 - 1
       });
-      if (this.state.current1 === 70) {
+      if (this.state.current1 === 170) {
         clearInterval(i);
         this.left_3_down()
       }
@@ -74,7 +77,7 @@ class App extends Component {
         current2: this.state.current2 - 1,
         left_2_right: this.state.left_2_right - 1
       });
-      if (this.state.current2 === 102) {
+      if (this.state.current2 === 202) {
         clearInterval(i);
         this.left_3_2_up()
       }
@@ -87,7 +90,7 @@ class App extends Component {
         current2: this.state.current2 + 1,
         left_2_right: this.state.left_2_right + 1
       });
-      if (this.state.current2 === 122) {
+      if (this.state.current2 === 222) {
         clearInterval(i);
         this.left_3_2_down()
       }
@@ -103,7 +106,7 @@ class App extends Component {
         current1_1: this.state.current1_1 + 1,
         left_2_left: this.state.left_2_left + 1
       });
-      if (this.state.current1_1 === 164) {
+      if (this.state.current1_1 === 264) {
         clearInterval(i);
         this.left_1_up()
       }
@@ -116,7 +119,7 @@ class App extends Component {
         current1_1: this.state.current1_1 - 1,
         left_2_left: this.state.left_2_left - 1
       });
-      if (this.state.current1_1 === 19) {
+      if (this.state.current1_1 === 119) {
         clearInterval(i);
         this.left_1_down()
       }
@@ -128,7 +131,7 @@ class App extends Component {
       this.setState({
         current2_2: this.state.current2_2 - 1
       });
-      if (this.state.current2_2 === 18) {
+      if (this.state.current2_2 === 118) {
         clearInterval(i);
         this.left_1_2_up()
       }
@@ -140,7 +143,7 @@ class App extends Component {
       this.setState({
         current2_2: this.state.current2_2 + 1
       });
-      if (this.state.current2_2 === 184) {
+      if (this.state.current2_2 === 284) {
         clearInterval(i);
         this.left_1_2_down()
       }
@@ -170,15 +173,6 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div style={{ height: "100px", width: "200px" }}>
-          <a-scene>
-            <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-            <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-            <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-            <a-sky color="#ECECEC"></a-sky>
-          </a-scene>
-        </div>
         <div id="wrapper"  >
           <DevBox test={this.handleClick} />
           <h1 onClick={this.handleClick} class={`resume ${this.state.isToggleOn ? 'viewHide' : 'view'}`} id="view"> VIEW </h1>
@@ -189,10 +183,13 @@ class App extends Component {
           <Resume active={this.state.isToggleOn ? 'resActive' : 'resInactive'} elements={this.state.isToggleOn ? 'Active' : 'InActive'} />
         </div> */}
 
-        <Left1 current1={this.state.current1_1} current2={this.state.current2_2} />
+        {/* <Left1 current1={this.state.current1_1} current2={this.state.current2_2} />
         <Left2 current1={this.state.left_2_left} current2={this.state.left_2_right} />
         <Left3 current1={this.state.current1} current2={this.state.current2} />
-        <LeftTri />
+        <LeftTri /> */}
+
+        <Right_circle />
+        <Left_circle />
 
         <Right1 current1={this.state.current1} current2={this.state.current2} />
         <Right2 current1={this.state.left_2_right} current2={this.state.left_2_left} />

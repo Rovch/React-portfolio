@@ -17,7 +17,7 @@
   bottom: 0;
 }
 
-.cls-5-right {
+/* .cls-5-right {
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -49,4 +49,21 @@
 
 .cls-5-right {
   filter: url(#Path_2);
+} */
+
+.cls-1 {
+  fill: #e7e5de;
+  stroke: #707070;
+}
+
+.cls-2 {
+  stroke: none;
+}
+
+.cls-3 {
+  fill: none;
+}
+
+.cls-4 {
+  filter: url(#Rectangle_21);
 }

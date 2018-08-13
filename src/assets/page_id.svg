@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.748 96.168">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        opacity: 0.459;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+        font-size: 10px;
+      }
+
+      .cls-2 {
+        font-family: Times-Roman, Times;
+        opacity: 0.533;
+      }
+
+      .cls-3 {
+        font-family: Raanana;
+        opacity: 0.405;
+      }
+    </style>
+  </defs>
+  <g id="Group_33" data-name="Group 33" transform="translate(-12.626 -972.89)">
+    <line id="Line_24" data-name="Line 24" class="cls-1" y2="39" transform="translate(16.5 1020.5)"/>
+    <text id="ROVCH" class="cls-2" transform="translate(12.626 1015.883) rotate(-89)"><tspan x="0" y="8">ROVCH</tspan></text>
+    <text id="_1" data-name="1" class="cls-3" transform="translate(12.626 1068.883) rotate(-89)"><tspan x="0" y="7">1</tspan></text>
+  </g>
+</svg>

@@ -5,7 +5,24 @@ class RightTri extends Component {
   render() {
     return (
       <div className="Right_Main_Div">
-        <svg className="Right_child" viewBox="0 0 1000 666" >
+        <svg class="Right_child" viewBox="0 0 1000 250">
+          <defs>
+            <filter id="Rectangle_21" x="0" y="40" width="1000" height="215" filterUnits="userSpaceOnUse">
+              <feOffset dx="3" dy="3" input="SourceAlpha" />
+              <feGaussianBlur stdDeviation="3" result="blur" />
+              <feFlood flood-opacity="0.161" />
+              <feComposite operator="in" in2="blur" />
+              <feComposite in="SourceGraphic" />
+            </filter>
+          </defs>
+          <g class="cls-4" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <g id="Rectangle_21-2" data-name="Rectangle 21" class="cls-1">
+              <rect class="cls-2" x="0.5" y="55" width="999" height="197" />
+              <rect class="cls-3" x="0.5" y="55" width="999" height="196" />
+            </g>
+          </g>
+        </svg>
+        {/* <svg className="Right_child" viewBox="0 0 1000 666" >
           <defs>
             <filter id="Path_2" x="0" y="0" width="1050" height="666" filterUnits="userSpaceOnUse">
               <feOffset dx="5" dy="5" input="SourceAlpha" />
@@ -40,7 +57,7 @@ class RightTri extends Component {
               <text id="RONT-END-2" data-name="RONT-END" class="cls-2-right" transform="translate(170 615)"><tspan x="0" y="191">RONT-END</tspan></text>
             </g>
           </g>
-        </svg>
+        </svg> */}
       </div >
     );
   };
