@@ -5,6 +5,7 @@
 }
 
 .Right_Main_Div {
+  /* cursor: url(/test1.gif), pointer; */
   position: absolute;
   width: 50vw;
   height: 50vh;

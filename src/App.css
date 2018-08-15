@@ -11,3 +11,11 @@
   background: linear-gradient(to right, #000000 50vw, #F1EFEA 50vw);
   overflow: hidden;
 }
+
+.true {
+  cursor: url("./Untitled.png"), auto
+}
+
+.false {
+  cursor: url("./cursor_black.png"), auto
+}

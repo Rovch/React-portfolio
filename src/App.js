@@ -27,7 +27,11 @@ class App extends Component {
       left_2_left: 186,
       motion: true,
       isToggleOn: true,
-      elements: true
+      elements: true,
+      x: 0,
+      y: 0,
+      x_current: 0,
+      cursor: true
     }
 
     this.handleClick = this.handleClick.bind(this);
@@ -35,17 +39,14 @@ class App extends Component {
 
   componentDidMount(props) {
     if (this.state.motion) {
-      this.test();
+      this.left_1_down()
+      this.left_1_2_down()
+      this.left_3_down()
+      this.left_3_2_down()
     }
-
   }
 
-  test() {
-    this.left_1_down()
-    this.left_1_2_down()
-    this.left_3_down()
-    this.left_3_2_down()
-  }
+
 
   left_3_down() {
     let i = setInterval(() => {
@@ -169,24 +170,34 @@ class App extends Component {
     }
   }
 
+  _onMouseMove(e) {
+    this.setState({ x: e.screenX, y: e.screenY, x_current: window.innerWidth });
+    this.state.x < window.innerWidth / 2 ? this.setState({ cursor: true }) : this.setState({ cursor: false })
+  }
 
   render() {
+    const { x, y } = this.state;
+
+    const test = {
+      borderRadius: "50px",
+      borderWidth: "1px",
+      borderColor: "pink",
+      borderStyle: "solid",
+      width: "100px",
+      height: "100px",
+      position: "absolute",
+      left: `${this.state.x - 50}px`,
+      top: `${this.state.y - 150}px`
+    }
     return (
-      <div className="container">
+      <div className={`container ${this.state.cursor}`} onMouseMove={this._onMouseMove.bind(this)} >
+        <div style={test}>
+        </div>
         <div id="wrapper"  >
           <DevBox test={this.handleClick} />
           <h1 onClick={this.handleClick} class={`resume ${this.state.isToggleOn ? 'viewHide' : 'view'}`} id="view"> VIEW </h1>
           <h1 onClick={this.handleClick} class={`resume ${this.state.isToggleOn ? 'resHide' : 'res'}`} id="resume"> RESUME </h1>
         </div>
-
-        {/* <div>
-          <Resume active={this.state.isToggleOn ? 'resActive' : 'resInactive'} elements={this.state.isToggleOn ? 'Active' : 'InActive'} />
-        </div> */}
-
-        {/* <Left1 current1={this.state.current1_1} current2={this.state.current2_2} />
-        <Left2 current1={this.state.left_2_left} current2={this.state.left_2_right} />
-        <Left3 current1={this.state.current1} current2={this.state.current2} />
-        <LeftTri /> */}
 
         <Right_circle />
         <Left_circle />
