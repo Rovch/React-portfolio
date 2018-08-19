@@ -1,0 +1,29 @@
+.cls-1-page_id {
+  fill: none;
+  stroke: #fff;
+  opacity: 0.3;
+}
+
+.cls-2-page_id,
+.cls-3-page_id {
+  fill: #fff;
+  font-size: 10px;
+}
+
+.cls-2-page_id {
+  font-family: Times-Roman, Times;
+  opacity: 0.3;
+}
+
+.cls-3-page_id {
+  font-family: Raanana;
+  opacity: 0.3;
+}
+
+.page_id {
+  position: absolute;
+  width: .8%;
+  margin-left: 1%;
+  margin-top: 49%;
+  bottom: 0;
+}

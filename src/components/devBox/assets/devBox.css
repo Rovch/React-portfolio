@@ -33,7 +33,7 @@
 }
 
 #devBox svg:hover {
-  cursor: pointer;
+  cursor: url("./cursor_white_clicked.png"), auto;
   transition-duration: 300ms;
   transform: scale(1.05);
   transition-timing-function: ease-out;

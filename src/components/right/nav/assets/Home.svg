@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 51">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        font-family: Times-Roman, Times;
+        opacity: 0.312;
+      }
+    </style>
+  </defs>
+  <text id="Home" class="cls-1"><tspan x="0" y="38">Home</tspan></text>
+</svg>

@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.Right_Main_Div {
+  z-index: 5;
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  bottom: 0;
+  right: 0;
+}
+
+.Right_child {
+  position: absolute;
+  bottom: 0;
+}
+
+.cls-1-nav {
+  fill: #e7e5de;
+  stroke: #707070;
+}
+
+.cls-2-nav {
+  stroke: none;
+}
+
+.cls-3-nav {
+  fill: none;
+}
+
+.cls-4-nav {
+  filter: url(#Rectangle_21);
+}
+
+/* ------------ home ------------ */
+
+#home_svg {
+  z-index: 10;
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  margin-left: 10%;
+}
+
+.cls-1-home {
+  position: absolute;
+  font-size: 50px;
+  font-family: Times-Roman, Times;
+  opacity: 0.312;
+}
+
+#line_1 {
+  margin-left: 5%;
+}
+
+#line_2 {
+  margin-left: 25%;
+}
+
+#line_3 {
+  margin-left: 45%;
+}
+
+#line_4 {
+  margin-left: 65%;
+}
+
+.home_lines_false {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+}
+
+.home_lines_true {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.line_home {
+  margin-left: 3%;
+  z-index: 111;
+  bottom: 0;
+  position: absolute;
+  width: 20%;
+  height: 10%;
+}
+
+.line_home:hover .home_lines_false:not(:hover) {
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+/* ------------ about ------------ */
+
+#about {
+  z-index: 10;
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  margin-left: 8%;
+}
+
+.cls-1-about {
+  font-size: 50px;
+  font-family: Times-Roman, Times;
+  opacity: 0.312;
+}
+
+#line_1_about {
+  margin-left: 5%;
+}
+
+#line_2_about {
+  margin-left: 25%;
+}
+
+#line_3_about {
+  margin-left: 45%;
+}
+
+#line_4_about {
+  margin-left: 65%;
+}
+
+.about_lines {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+}
+
+.line_active {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.line_about {
+  margin-left: 20%;
+  z-index: 111;
+  bottom: 0;
+  position: absolute;
+  width: 20%;
+  height: 10%;
+}
+
+.line_about:hover .about_lines:not(:hover) {
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.line_about {
+  margin-left: 30%;
+}
+
+/* ------------ work ------------ */
+
+#work {
+  z-index: 10;
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  margin-left: 8%;
+}
+
+.cls-1-work {
+  font-size: 50px;
+  font-family: Times-Roman, Times;
+  opacity: 0.312;
+}
+
+#line_1_work {
+  margin-left: 0%;
+}
+
+#line_2_work {
+  margin-left: 20%;
+}
+
+#line_3_work {
+  margin-left: 40%;
+}
+
+#line_4_work {
+  margin-left: 60%;
+}
+
+.work_lines {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+}
+
+.line_active {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.line_work {
+  margin-left: 55%;
+  z-index: 111;
+  bottom: 0;
+  position: absolute;
+  width: 20%;
+  height: 10%;
+}
+
+.line_work:hover .work_lines:not(:hover) {
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+/* ------------ contact ------------ */
+
+#contact {
+  z-index: 10;
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  margin-left: 1%;
+}
+
+.cls-1-contact {
+  font-size: 50px;
+  font-family: Times-Roman, Times;
+  opacity: 0.312;
+}
+
+#line_1_contact {
+  margin-left: 0%;
+}
+
+#line_2_contact {
+  margin-left: 20%;
+}
+
+#line_3_contact {
+  margin-left: 40%;
+}
+
+#line_4_contact {
+  margin-left: 60%;
+}
+
+.contact_lines {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+}
+
+.line_active {
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  width: 20%;
+  border-bottom: 2px solid black;
+  z-index: 10;
+  bottom: 0;
+  margin-bottom: 13%;
+  position: absolute;
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.line_contact {
+  margin-left: 78%;
+  z-index: 111;
+  bottom: 0;
+  position: absolute;
+  width: 20%;
+  height: 10%;
+}
+
+.line_contact:hover .contact_lines:not(:hover) {
+  transform: rotate(-45deg);
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}

@@ -1,0 +1,57 @@
+.cls-1-a,
+.cls-2-a,
+.cls-3-a {
+  fill: none;
+}
+
+.cls-1-a {
+  stroke: #707070;
+}
+
+.cls-2-a {
+  stroke: #c3c3c3;
+}
+
+.cls-3-a {
+  stroke: #b9b9b9;
+}
+
+.arrow {
+  position: absolute;
+  width: 2%;
+  margin-left: 24%;
+  margin-top: 28%;
+}
+
+@-webkit-keyframes NAME {
+  0% {
+    opacity: .8;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .8;
+  }
+}
+
+@-webkit-keyframes switch {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#arrow_svg {
+  animation: NAME 5s infinite;
+}
+
+#arrow_svg:hover {
+  cursor: url("./cursor_white_clicked.png"), auto;
+  animation: switch 1s infinite;
+}

@@ -13,9 +13,11 @@
 }
 
 .true {
-  cursor: url("./Untitled.png"), auto
+  cursor: url("./Untitled.png"), auto;
+  /* width: 120px */
 }
 
 .false {
-  cursor: url("./cursor_black.png"), auto
+  cursor: url("./cursor_black.png"), auto;
+  /* width: 120px */
 }

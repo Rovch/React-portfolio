@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178 107">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 90px;
+        font-family: SavoyeLetPlain, Savoye LET;
+        opacity: 0.627;
+      }
+    </style>
+  </defs>
+  <text id="Wesley" class="cls-1"><tspan x="0" y="62">Wesley</tspan></text>
+</svg>

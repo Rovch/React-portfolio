@@ -1,0 +1,65 @@
+.textOne {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+/* --------------- welcome --------------- */
+
+#welcome {
+  position: absolute;
+  width: 45%;
+  margin-top: 7%;
+  margin-left: 10%;
+}
+
+.cls-1-welcome {
+  fill: #fff;
+  font-size: 100px;
+  font-family: Times-Roman, Times;
+  opacity: 0.612;
+}
+
+/* --------------- name --------------- */
+
+#name {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 5%;
+  width: 33%;
+}
+
+.cls-1-name {
+  fill: #fff;
+  font-size: 85px;
+  font-family: SavoyeLetPlain, Savoye LET;
+  opacity: 0.3;
+}
+
+/* --------------- wesley --------------- */
+
+#wesley {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 25%;
+  width: 20%;
+}
+
+.cls-1-wesley {
+  fill: #fff;
+  font-size: 90px;
+  font-family: SavoyeLetPlain, Savoye LET;
+  opacity: 0.427;
+}
+
+/* --------------- rec_one --------------- */
+
+#rec_one {
+  position: absolute;
+  left: 0;
+}
+
+.cls-1-rec_one {
+  fill: rgba(255, 255, 255, 0.06);
+  opacity: 0.516;
+}

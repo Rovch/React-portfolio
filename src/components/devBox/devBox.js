@@ -3,7 +3,7 @@ import "./assets/devBox.css"
 export default class DevBox extends Component {
   render() {
     return (
-      <div id="devBox">
+      <div style={{ zIndex: 305 }} id="devBox">
         <svg width="100%" height="100%" viewBox="0 0 355 72" version="1.1" id="style1">
           <g onClick={this.props.test}>
             <rect x="8.779" y="8.779" width="168.998" height="53.759" />

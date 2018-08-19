@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Resume from "./components/resume";
-import LeftTri from "./components/left/left_Tri/index.js"
-import RightTri from "./components/right/right_Tri/index.js"
-import Left1 from "./components/left/left_1"
-import Left2 from "./components/left/left_2"
-import Left3 from "./components/left/left_3"
+import Nav from "./components/right/nav";
 import Right1 from "./components/right/right_1";
 import Right2 from "./components/right/right_2";
 import Right3 from "./components/right/right_3";
 import DevBox from "./components/devBox";
 import Right_circle from "./components/right/circle";
 import Left_circle from "./components/left/circle";
-
+import Arrow from "./components/arrow_down";
+import Page_id from "./components/page_id";
+import Text_one from "./components/textOne";
+import Rec_one from "./components/rec_one";
+import Loading from "./components/loading";
 
 class App extends Component {
   constructor() {
@@ -28,13 +27,17 @@ class App extends Component {
       motion: true,
       isToggleOn: true,
       elements: true,
+      loading: false,
+      page: 1,
       x: 0,
       y: 0,
       x_current: 0,
-      cursor: true
+      cursor: true,
+
     }
 
     this.handleClick = this.handleClick.bind(this);
+    this.handleLoading = this.handleLoading.bind(this);
   }
 
   componentDidMount(props) {
@@ -170,6 +173,19 @@ class App extends Component {
     }
   }
 
+  handleLoading() {
+    this.setState(prevState => ({
+      loading: !prevState.loading,
+    }));
+
+    setTimeout(() => {
+      this.setState(prevState => ({
+        loading: !prevState.loading,
+      }));
+    }, 5000)
+  }
+
+
   _onMouseMove(e) {
     this.setState({ x: e.screenX, y: e.screenY, x_current: window.innerWidth });
     this.state.x < window.innerWidth / 2 ? this.setState({ cursor: true }) : this.setState({ cursor: false })
@@ -191,21 +207,27 @@ class App extends Component {
     }
     return (
       <div className={`container ${this.state.cursor}`} onMouseMove={this._onMouseMove.bind(this)} >
-        <div style={test}>
-        </div>
+        {/* <div style={test}>
+        </div> */}
         <div id="wrapper"  >
           <DevBox test={this.handleClick} />
-          <h1 onClick={this.handleClick} class={`resume ${this.state.isToggleOn ? 'viewHide' : 'view'}`} id="view"> VIEW </h1>
-          <h1 onClick={this.handleClick} class={`resume ${this.state.isToggleOn ? 'resHide' : 'res'}`} id="resume"> RESUME </h1>
         </div>
 
+        <Loading status={this.state.loading} />
+
+
+
+        <Arrow />
+        <Text_one />
+        <Page_id />
         <Right_circle />
         <Left_circle />
+        <Rec_one />
 
         <Right1 current1={this.state.current1} current2={this.state.current2} />
         <Right2 current1={this.state.left_2_right} current2={this.state.left_2_left} />
         <Right3 current1={this.state.current1_1} current2={this.state.current2_2} />
-        <RightTri />
+        <Nav handle={this.handleLoading} status={this.state.loading} />
 
       </div >
     );

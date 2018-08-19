@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 251 102">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 85px;
+        font-family: SavoyeLetPlain, Savoye LET;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <text id="my_name_is" data-name="my name is" class="cls-1" transform="translate(1)"><tspan x="0" y="59">my name is</tspan></text>
+</svg>
