@@ -1,179 +1,43 @@
 import React, { Component } from 'react';
 import './App.css';
-import Nav from "./components/right/nav";
-import Right1 from "./components/right/right_1";
-import Right2 from "./components/right/right_2";
-import Right3 from "./components/right/right_3";
 import DevBox from "./components/devBox";
-import Right_circle from "./components/right/circle";
-import Left_circle from "./components/left/circle";
-import Arrow from "./components/arrow_down";
-import Page_id from "./components/page_id";
-import Text_one from "./components/textOne";
-import Rec_one from "./components/rec_one";
 import Loading from "./components/loading";
+import Home from "./pages/home";
+import Main from "./pages/main";
 
 class App extends Component {
   constructor() {
     super();
-
     this.state = {
-      current1: 120,
-      current2: 242,
-      current1_1: 139,
-      current2_2: 304,
-      left_2_right: 242,
-      left_2_left: 186,
-      motion: true,
-      isToggleOn: true,
-      elements: true,
       loading: false,
-      page: 1,
+      page: "home",
       x: 0,
       y: 0,
-      x_current: 0,
-      cursor: true,
-
+      x_current: 0
     }
-
-    this.handleClick = this.handleClick.bind(this);
     this.handleLoading = this.handleLoading.bind(this);
   }
 
-  componentDidMount(props) {
-    if (this.state.motion) {
-      this.left_1_down()
-      this.left_1_2_down()
-      this.left_3_down()
-      this.left_3_2_down()
+  handleLoading(data) {
+    console.log(data)
+    switch (data) {
+      case "home":
+        this.setState({ page: "home" });
+
+        break;
+      case "about":
+        this.setState({ page: "about" });
+        break;
+      case "work":
+        this.setState({ page: "work" });
+        break;
+      case "contact":
+        this.setState({ page: "contact" });
+        break;
+      default:
+        this.setState({ page: "home" });
     }
-  }
 
-
-
-  left_3_down() {
-    let i = setInterval(() => {
-      this.setState({
-        current1: this.state.current1 + 1
-      });
-      if (this.state.current1 === 310) {
-        clearInterval(i);
-        this.left_3_up()
-      }
-    }, 50);
-  }
-
-  left_3_up() {
-    let i = setInterval(() => {
-      this.setState({
-        current1: this.state.current1 - 1
-      });
-      if (this.state.current1 === 170) {
-        clearInterval(i);
-        this.left_3_down()
-      }
-    }, 50);
-  }
-
-  left_3_2_down() {
-    let i = setInterval(() => {
-      this.setState({
-        current2: this.state.current2 - 1,
-        left_2_right: this.state.left_2_right - 1
-      });
-      if (this.state.current2 === 202) {
-        clearInterval(i);
-        this.left_3_2_up()
-      }
-    }, 115);
-  }
-
-  left_3_2_up() {
-    let i = setInterval(() => {
-      this.setState({
-        current2: this.state.current2 + 1,
-        left_2_right: this.state.left_2_right + 1
-      });
-      if (this.state.current2 === 222) {
-        clearInterval(i);
-        this.left_3_2_down()
-      }
-    }, 115);
-  }
-
-
-  // -------------- set 2 -------------- //
-
-  left_1_down() {
-    let i = setInterval(() => {
-      this.setState({
-        current1_1: this.state.current1_1 + 1,
-        left_2_left: this.state.left_2_left + 1
-      });
-      if (this.state.current1_1 === 264) {
-        clearInterval(i);
-        this.left_1_up()
-      }
-    }, 70);
-  }
-
-  left_1_up() {
-    let i = setInterval(() => {
-      this.setState({
-        current1_1: this.state.current1_1 - 1,
-        left_2_left: this.state.left_2_left - 1
-      });
-      if (this.state.current1_1 === 119) {
-        clearInterval(i);
-        this.left_1_down()
-      }
-    }, 70);
-  }
-
-  left_1_2_down() {
-    let i = setInterval(() => {
-      this.setState({
-        current2_2: this.state.current2_2 - 1
-      });
-      if (this.state.current2_2 === 118) {
-        clearInterval(i);
-        this.left_1_2_up()
-      }
-    }, 115);
-  }
-
-  left_1_2_up() {
-    let i = setInterval(() => {
-      this.setState({
-        current2_2: this.state.current2_2 + 1
-      });
-      if (this.state.current2_2 === 284) {
-        clearInterval(i);
-        this.left_1_2_down()
-      }
-    }, 115);
-  }
-
-  handleClick(e) {
-    e.preventDefault();
-    this.setState(prevState => ({
-      isToggleOn: !prevState.isToggleOn,
-      motion: !prevState.isToggleOn
-    }));
-
-
-    if (!this.state.isToggleOn) {
-      let i = setInterval(() => {
-        console.log("test")
-        this.setState(prevState => ({
-          elements: !prevState.isToggleOn
-        }));
-        clearInterval(i);
-      }, 3000);
-    }
-  }
-
-  handleLoading() {
     this.setState(prevState => ({
       loading: !prevState.loading,
     }));
@@ -185,7 +49,6 @@ class App extends Component {
     }, 5000)
   }
 
-
   _onMouseMove(e) {
     this.setState({ x: e.screenX, y: e.screenY, x_current: window.innerWidth });
     this.state.x < window.innerWidth / 2 ? this.setState({ cursor: true }) : this.setState({ cursor: false })
@@ -193,42 +56,31 @@ class App extends Component {
 
   render() {
     const { x, y } = this.state;
-
     const test = {
+      zIndex: "99999",
+      pointerEvents: "none",
       borderRadius: "50px",
       borderWidth: "1px",
-      borderColor: "pink",
+      borderColor: "white",
       borderStyle: "solid",
-      width: "100px",
-      height: "100px",
+      width: "50px",
+      height: "50px",
       position: "absolute",
-      left: `${this.state.x - 50}px`,
-      top: `${this.state.y - 150}px`
+      left: `${this.state.x - 15}px`,
+      top: `${this.state.y - 112}px`
     }
     return (
       <div className={`container ${this.state.cursor}`} onMouseMove={this._onMouseMove.bind(this)} >
-        {/* <div style={test}>
-        </div> */}
         <div id="wrapper"  >
           <DevBox test={this.handleClick} />
         </div>
 
         <Loading status={this.state.loading} />
+        <Home />
+        <Main handle={this.handleLoading} page={this.state.page} />
 
-
-
-        <Arrow />
-        <Text_one />
-        <Page_id />
-        <Right_circle />
-        <Left_circle />
-        <Rec_one />
-
-        <Right1 current1={this.state.current1} current2={this.state.current2} />
-        <Right2 current1={this.state.left_2_right} current2={this.state.left_2_left} />
-        <Right3 current1={this.state.current1_1} current2={this.state.current2_2} />
-        <Nav handle={this.handleLoading} status={this.state.loading} />
-
+        {/* <div style={test}>
+        </div> */}
       </div >
     );
   }

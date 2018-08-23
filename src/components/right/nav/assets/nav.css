@@ -89,8 +89,6 @@
   margin-bottom: 13%;
   position: absolute;
   transform: rotate(-45deg);
-  transition-duration: 300ms;
-  transition-timing-function: ease-out;
 }
 
 .line_home {
@@ -140,7 +138,7 @@
   margin-left: 65%;
 }
 
-.about_lines {
+.about_lines_false {
   transition-duration: 300ms;
   transition-timing-function: ease-out;
   width: 20%;
@@ -151,7 +149,7 @@
   position: absolute;
 }
 
-.line_active {
+.about_lines_true {
   transition-duration: 300ms;
   transition-timing-function: ease-out;
   width: 20%;
@@ -161,12 +159,10 @@
   margin-bottom: 13%;
   position: absolute;
   transform: rotate(-45deg);
-  transition-duration: 300ms;
-  transition-timing-function: ease-out;
 }
 
 .line_about {
-  margin-left: 20%;
+  margin-left: 27%;
   z-index: 111;
   bottom: 0;
   position: absolute;
@@ -174,14 +170,10 @@
   height: 10%;
 }
 
-.line_about:hover .about_lines:not(:hover) {
+.line_about:hover .about_lines_false:not(:hover) {
   transform: rotate(-45deg);
   transition-duration: 300ms;
   transition-timing-function: ease-out;
-}
-
-.line_about {
-  margin-left: 30%;
 }
 
 /* ------------ work ------------ */
@@ -216,7 +208,7 @@
   margin-left: 60%;
 }
 
-.work_lines {
+.work_lines_false {
   transition-duration: 300ms;
   transition-timing-function: ease-out;
   width: 20%;
@@ -227,7 +219,7 @@
   position: absolute;
 }
 
-.line_active {
+.work_lines_true {
   transition-duration: 300ms;
   transition-timing-function: ease-out;
   width: 20%;
@@ -237,8 +229,6 @@
   margin-bottom: 13%;
   position: absolute;
   transform: rotate(-45deg);
-  transition-duration: 300ms;
-  transition-timing-function: ease-out;
 }
 
 .line_work {
@@ -250,7 +240,7 @@
   height: 10%;
 }
 
-.line_work:hover .work_lines:not(:hover) {
+.line_work:hover .work_lines_false:not(:hover) {
   transform: rotate(-45deg);
   transition-duration: 300ms;
   transition-timing-function: ease-out;
@@ -288,7 +278,7 @@
   margin-left: 60%;
 }
 
-.contact_lines {
+.contact_lines_false {
   transition-duration: 300ms;
   transition-timing-function: ease-out;
   width: 20%;
@@ -299,7 +289,7 @@
   position: absolute;
 }
 
-.line_active {
+.contact_lines_true {
   transition-duration: 300ms;
   transition-timing-function: ease-out;
   width: 20%;
@@ -322,7 +312,7 @@
   height: 10%;
 }
 
-.line_contact:hover .contact_lines:not(:hover) {
+.line_contact:hover .contact_lines_false:not(:hover) {
   transform: rotate(-45deg);
   transition-duration: 300ms;
   transition-timing-function: ease-out;

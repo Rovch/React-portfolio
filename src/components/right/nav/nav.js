@@ -5,47 +5,47 @@ class Nav extends Component {
   render() {
     return (
       <div className="Right_Main_Div" >
-        <div class="line_home" onClick={this.props.handle}>
+        <div class="line_home" onClick={() => { this.props.handle("home") }}>
           <svg id="home_svg" viewBox="0 0 138 51">
             <text id="Home" class="cls-1-home"><tspan x="0" y="38">Home</tspan></text>
           </svg>
-          <div class={`home_lines_${this.props.status}`} id="line_1" />
-          <div class={`home_lines_${this.props.status}`} id="line_2" />
-          <div class={`home_lines_${this.props.status}`} id="line_3" />
-          <div class={`home_lines_${this.props.status}`} id="line_4" />
+          <div class={this.props.status != "home" ? `home_lines_false` : `home_lines_true`} id="line_1" />
+          <div class={this.props.status != "home" ? `home_lines_false` : `home_lines_true`} id="line_2" />
+          <div class={this.props.status != "home" ? `home_lines_false` : `home_lines_true`} id="line_3" />
+          <div class={this.props.status != "home" ? `home_lines_false` : `home_lines_true`} id="line_4" />
         </div>
 
 
-        <div class="line_about">
+        <div class="line_about" onClick={() => { this.props.handle("about") }}>
           <svg id="about" viewBox="0 0 138 51">
             <text id="About" class="cls-1-about"><tspan x="0" y="38">About</tspan></text>
           </svg>
-          <div class="about_lines" id="line_1_about" />
-          <div class="about_lines" id="line_2_about" />
-          <div class="about_lines" id="line_3_about" />
-          <div class="about_lines" id="line_4_about" />
+          <div class={this.props.status != "about" ? `about_lines_false` : `about_lines_true`} id="line_1_about" />
+          <div class={this.props.status != "about" ? `about_lines_false` : `about_lines_true`} id="line_2_about" />
+          <div class={this.props.status != "about" ? `about_lines_false` : `about_lines_true`} id="line_3_about" />
+          <div class={this.props.status != "about" ? `about_lines_false` : `about_lines_true`} id="line_4_about" />
         </div>
 
-        <div class="line_work">
+        <div class="line_work" onClick={() => { this.props.handle("work") }}>
           <svg id="work" viewBox="0 0 138 51">
             <text id="Work" class="cls-1-work"><tspan x="0" y="38">Work</tspan></text>
           </svg>
 
-          <div class="work_lines" id="line_1_work" />
-          <div class="work_lines" id="line_2_work" />
-          <div class="work_lines" id="line_3_work" />
-          <div class="work_lines" id="line_4_work" />
+          <div class={this.props.status != "work" ? `work_lines_false` : `work_lines_true`} id="line_1_work" />
+          <div class={this.props.status != "work" ? `work_lines_false` : `work_lines_true`} id="line_2_work" />
+          <div class={this.props.status != "work" ? `work_lines_false` : `work_lines_true`} id="line_3_work" />
+          <div class={this.props.status != "work" ? `work_lines_false` : `work_lines_true`} id="line_4_work" />
         </div>
 
-        <div class="line_contact">
+        <div class="line_contact" onClick={() => { this.props.handle("contact") }}>
           <svg id="contact" viewBox="0 0 155 51">
             <text id="Contact" class="cls-1-contact"><tspan x="0" y="38">Contact</tspan></text>
           </svg>
 
-          <div class="contact_lines" id="line_1_contact" />
-          <div class="contact_lines" id="line_2_contact" />
-          <div class="contact_lines" id="line_3_contact" />
-          <div class="contact_lines" id="line_4_contact" />
+          <div class={this.props.status != "contact" ? `contact_lines_false` : `contact_lines_true`} id="line_1_contact" />
+          <div class={this.props.status != "contact" ? `contact_lines_false` : `contact_lines_true`} id="line_2_contact" />
+          <div class={this.props.status != "contact" ? `contact_lines_false` : `contact_lines_true`} id="line_3_contact" />
+          <div class={this.props.status != "contact" ? `contact_lines_false` : `contact_lines_true`} id="line_4_contact" />
         </div>
 
 
