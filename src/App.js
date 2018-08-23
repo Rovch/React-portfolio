@@ -18,25 +18,49 @@ class App extends Component {
     this.handleLoading = this.handleLoading.bind(this);
   }
 
+
+
+
+
+  // const components = {
+  //     photo: PhotoStory,
+  //     video: VideoStory
+  // };
+
+  // function Story(props) {
+  //     // Correct! JSX type can be a capitalized variable.
+  //     const SpecificStory = components[props.storyType];
+  //     return <SpecificStory story={props.story} />;
+  // }
+
+
   handleLoading(data) {
-    console.log(data)
     switch (data) {
       case "home":
-        this.setState({ page: "home" });
-
+        setTimeout(() => {
+          this.setState({ page: "home" });
+        }, 2000)
         break;
       case "about":
-        this.setState({ page: "about" });
+        setTimeout(() => {
+          this.setState({ page: "about" });
+        }, 2000)
         break;
       case "work":
-        this.setState({ page: "work" });
+        setTimeout(() => {
+          this.setState({ page: "work" });
+        }, 2000)
         break;
       case "contact":
-        this.setState({ page: "contact" });
+        setTimeout(() => {
+          this.setState({ page: "contact" });
+        }, 2000)
         break;
       default:
         this.setState({ page: "home" });
     }
+
+
 
     this.setState(prevState => ({
       loading: !prevState.loading,
@@ -69,16 +93,31 @@ class App extends Component {
       left: `${this.state.x - 15}px`,
       top: `${this.state.y - 112}px`
     }
+    let currentPage
+    switch (this.state.page) {
+      case "home":
+        currentPage = <Home />
+        break;
+      case "about":
+        // currentPage = <Main />
+        break;
+      case "work":
+        currentPage = <Home />
+        break;
+      case "contact":
+        currentPage = <Home />
+        break;
+      default:
+        currentPage = <Home />
+    }
     return (
       <div className={`container ${this.state.cursor}`} onMouseMove={this._onMouseMove.bind(this)} >
         <div id="wrapper"  >
           <DevBox test={this.handleClick} />
         </div>
-
-        <Loading status={this.state.loading} />
-        <Home />
         <Main handle={this.handleLoading} page={this.state.page} />
-
+        <Loading status={this.state.loading} />
+        {currentPage}
         {/* <div style={test}>
         </div> */}
       </div >
